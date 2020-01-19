@@ -3,21 +3,23 @@ Loan Approval Model that gives a prediction whether or not a certain loan applic
 
 # Data Cleaning and Preprocessing
 Attributes are mixed, there is nominal, ordinal and quantitative attributes.
-Dropping attributes with low variance.
-Checking for outliers within the quantitative attributes.
-There are outliers that need to be removed in the numerical attributes.
-Some of the ordinal attributes don't have the right values and need to be replaced.
-Splitting the dataset into training and testing sets.
-Nomrmalizing the training and testing sets' quantitative attributes.
-Checking for correlations for the different quantitative and the class attribute.
-Dropping attributes with the lowest correlation to the class attribute.
-Creating dummy variables for the nominal attributes.
-Last check to see if the class attribute has imbalanced values.
-Defining functions for Confusion Matrix and Metrics (for Precision, Recall, and F1- score)
+
+Dropping attributes with low variance.\
+Checking for outliers within the quantitative attributes.\
+There are outliers that need to be removed in the numerical attributes.\
+Some of the ordinal attributes don't have the right values and need to be replaced.\
+Splitting the dataset into training and testing sets.\
+Nomrmalizing the training and testing sets' quantitative attributes.\
+Checking for correlations for the different quantitative and the class attribute.\
+Dropping attributes with the lowest correlation to the class attribute.\
+Creating dummy variables for the nominal attributes.\
+Last check to see if the class attribute has imbalanced values.\
+Defining functions for Confusion Matrix and Metrics (for Precision, Recall, and F1- score)\
 
 # Applying different ML algorithms
-SVM -Logistic Regression
-KNN
+SVM\
+Logistic Regression\
+KNN\
 Random Forest
 
 # Conclusion
