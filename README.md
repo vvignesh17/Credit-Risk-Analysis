@@ -20,7 +20,8 @@ Defining functions for Confusion Matrix and Metrics (for Precision, Recall, and 
 SVM\
 Logistic Regression\
 KNN\
-Random Forest
+Random Forest\
+XGBoost
 
 # Conclusion
 Since the bank does not want to lose money giving applicants who won't pay the loan back, then the Recall is the most important parameter for us to be choosing our model. Random Forest had the highest Recall, and at the same time it had the highest accuracy among all the other algorithms.
